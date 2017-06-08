@@ -1,0 +1,814 @@
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_20170104/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_20170104/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3.ucf -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3.ucf -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3.ucf -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3.ucf -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf DAQ.ucf -ucf adc.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf DAQ.ucf -ucf adc.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf DAQ.ucf -ucf adc.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_20170116/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_20170116/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf DAQ.ucf -ucf adc.ucf -ucf pxi_interface.ucf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf DAQ.ucf -ucf adc.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol std -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc pxi_interface.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc adc.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf DAQ.ucf -ucf adc.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf DAQ.ucf -ucf adc.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc adc.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc adc.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf DAQ.ucf -ucf adc.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc DAQ.ucf -uc adc.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc adc.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc DAQ.ucf -uc pxi_interface.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf DAQ.ucf -ucf pxi_interface.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr3_ctrl.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc adc.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf ddr3_ctrl.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf adc.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc adc.ucf -uc pxi_interface.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf adc.ucf -ucf pxi_interface.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc adc.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+xst -intstyle ise -ifn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.xst" -ofn "E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc adc.ucf -uc DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PXI_DAQ_map.ncd PXI_DAQ.ngd PXI_DAQ.pcf 
+par -w -intstyle ise -ol high -mt off -k PXI_DAQ_map.ncd PXI_DAQ.ncd PXI_DAQ.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PXI_DAQ.twx PXI_DAQ.ncd -o PXI_DAQ.twr PXI_DAQ.pcf -ucf pxi_interface.ucf -ucf adc.ucf -ucf DAQ.ucf -ucf ddr3_ctrl.ucf 
+bitgen -intstyle ise -f PXI_DAQ.ut PXI_DAQ.ncd 

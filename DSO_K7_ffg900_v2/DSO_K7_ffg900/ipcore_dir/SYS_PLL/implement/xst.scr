@@ -1,0 +1,9 @@
+run
+-ifmt MIXED
+-top SYS_PLL_exdes
+-p xc7k325t-ffg900-2
+-ifn xst.prj
+-ofn SYS_PLL_exdes
+-keep_hierarchy soft 
+-equivalent_register_removal no 
+-max_fanout 65535

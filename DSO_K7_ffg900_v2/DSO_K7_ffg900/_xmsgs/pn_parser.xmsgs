@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/74154.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/74541.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/ADC_Ctrlword_Send.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/ADC_DATA_RX.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/ADF_Control.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/Channel_Control.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/DAC_out.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/DDC_System.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/DDR3_APP_ctrl.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/DMAport16.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/DUC_System.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/D_flip_flop.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/Diff_To_Single.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/I2C_Ctrl.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/IOport256.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/MUX_41.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/Multi_Rate_Processing_System.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PE4302_out.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_Interface.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_RD.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_WD.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_WR_1bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/Signal_Generator.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/TDC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/TRIG_System.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/TV_Trig.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/any_row_tri.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/certain_row_tri.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/combine64to128.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/compare2pts.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/compare4pts.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/comparewihtlast_max.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/comparewihtlast_min.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/counter_n_bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/div1000.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/div_10.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/div_20.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/div_2000.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/freq_measure.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/hc4094_out.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/hc74374b.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/holdoff.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/i2cwr.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/lock_blast.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/maxmin_detect.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/mux21.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/normal_path.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/oe_field_tri.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/peakdetect_path.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/pulse_width_measure.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/pulsewidth.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/pxi_decoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/pxi_lock_addr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/rd_addr_gen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/s2p.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/scan.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/spi_interface.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/trig.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/w_r_mod24.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/w_r_mod32.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/w_r_mod_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/wr_addr_gen.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

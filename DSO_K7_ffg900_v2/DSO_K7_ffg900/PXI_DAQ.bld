@@ -1,0 +1,3038 @@
+Release 14.6 ngdbuild P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: d:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pxi_interface.ucf -uc adc.ucf -uc
+DAQ.ucf -uc ddr3_ctrl.ucf -p xc7k325t-ffg900-2 PXI_DAQ_cs.ngc PXI_DAQ.ngd
+
+Reading NGO file
+"E:/ISE_Project/PXI/DSO_K7_ffg900_v2/DSO_K7_ffg900/PXI_DAQ_cs.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "pxi_interface.ucf" ...
+Annotating constraints to design from ucf file "adc.ucf" ...
+Annotating constraints to design from ucf file "DAQ.ucf" ...
+Annotating constraints to design from ucf file "ddr3_ctrl.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:137 - Constraint <NET "EXT_CLK_Measure" TNM_NET =
+   EXT_CLK_Measure;> [DAQ.ucf(170)]: No appropriate instances for the TNM
+   constraint are driven by "EXT_CLK_Measure".
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_EXT_CLK_Measure = PERIOD
+   "EXT_CLK_Measure" 4 ns HIGH 50%;> [DAQ.ucf(171)]: Unable to find an active
+   'TNM' or 'TimeGrp' constraint named 'EXT_CLK_Measure'.
+
+WARNING:ConstraintSystem:191 - The TNM 'EXT_CLK_Measure', does not directly or
+   indirectly drive any flip-flops, latches and/or RAMS and cannot be actively
+   used by the referencing Period constraint 'TS_EXT_CLK_Measure'. If clock
+   manager blocks are directly or indirectly driven, a new TNM constraint will
+   not be derived even though the referencing constraint is a PERIOD constraint
+   unless an output of the clock manager drives flip-flops, latches or RAMs.
+   This TNM is used in the following user PERIOD specification:
+   <TIMESPEC TS_EXT_CLK_Measure = PERIOD "EXT_CLK_Measure" 4 ns HIGH 50%;>
+   [DAQ.ucf(171)]
+
+WARNING:ConstraintSystem:197 - The following specification is invalid because
+   the referenced TNM constraint was removed:
+   <TIMESPEC TS_EXT_CLK_Measure = PERIOD "EXT_CLK_Measure" 4 ns HIGH 50%;>
+   [DAQ.ucf(171)]
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'Signal_Trig_test' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'pul_func<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'addr_init_rd<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'n0096<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'N160' has no driver
+WARNING:NgdBuild:452 - logical net 'N161' has no driver
+WARNING:NgdBuild:452 - logical net 'N162' has no driver
+WARNING:NgdBuild:452 - logical net 'N163' has no driver
+WARNING:NgdBuild:452 - logical net 'N164' has no driver
+WARNING:NgdBuild:452 - logical net 'N165' has no driver
+WARNING:NgdBuild:452 - logical net 'N166' has no driver
+WARNING:NgdBuild:452 - logical net 'N167' has no driver
+WARNING:NgdBuild:452 - logical net 'N168' has no driver
+WARNING:NgdBuild:452 - logical net 'N169' has no driver
+WARNING:NgdBuild:452 - logical net 'N170' has no driver
+WARNING:NgdBuild:452 - logical net 'N171' has no driver
+WARNING:NgdBuild:452 - logical net 'N172' has no driver
+WARNING:NgdBuild:452 - logical net 'N173' has no driver
+WARNING:NgdBuild:452 - logical net 'N174' has no driver
+WARNING:NgdBuild:452 - logical net 'N175' has no driver
+WARNING:NgdBuild:452 - logical net 'N176' has no driver
+WARNING:NgdBuild:452 - logical net 'N177' has no driver
+WARNING:NgdBuild:452 - logical net 'N178' has no driver
+WARNING:NgdBuild:452 - logical net 'N179' has no driver
+WARNING:NgdBuild:452 - logical net 'N180' has no driver
+WARNING:NgdBuild:452 - logical net 'N181' has no driver
+WARNING:NgdBuild:452 - logical net 'N182' has no driver
+WARNING:NgdBuild:452 - logical net 'N183' has no driver
+WARNING:NgdBuild:452 - logical net 'N184' has no driver
+WARNING:NgdBuild:452 - logical net 'N185' has no driver
+WARNING:NgdBuild:452 - logical net 'N186' has no driver
+WARNING:NgdBuild:452 - logical net 'N187' has no driver
+WARNING:NgdBuild:452 - logical net 'N188' has no driver
+WARNING:NgdBuild:452 - logical net 'N189' has no driver
+WARNING:NgdBuild:452 - logical net 'N190' has no driver
+WARNING:NgdBuild:452 - logical net 'N191' has no driver
+WARNING:NgdBuild:452 - logical net 'N192' has no driver
+WARNING:NgdBuild:452 - logical net 'N193' has no driver
+WARNING:NgdBuild:452 - logical net 'N194' has no driver
+WARNING:NgdBuild:452 - logical net 'N195' has no driver
+WARNING:NgdBuild:452 - logical net 'N196' has no driver
+WARNING:NgdBuild:452 - logical net 'N197' has no driver
+WARNING:NgdBuild:452 - logical net 'N198' has no driver
+WARNING:NgdBuild:452 - logical net 'N199' has no driver
+WARNING:NgdBuild:452 - logical net 'N200' has no driver
+WARNING:NgdBuild:452 - logical net 'N201' has no driver
+WARNING:NgdBuild:452 - logical net 'N202' has no driver
+WARNING:NgdBuild:452 - logical net 'N203' has no driver
+WARNING:NgdBuild:452 - logical net 'N204' has no driver
+WARNING:NgdBuild:452 - logical net 'N205' has no driver
+WARNING:NgdBuild:452 - logical net 'N206' has no driver
+WARNING:NgdBuild:452 - logical net 'N207' has no driver
+WARNING:NgdBuild:452 - logical net 'N208' has no driver
+WARNING:NgdBuild:452 - logical net 'N209' has no driver
+WARNING:NgdBuild:452 - logical net 'N210' has no driver
+WARNING:NgdBuild:452 - logical net 'N211' has no driver
+WARNING:NgdBuild:452 - logical net 'N212' has no driver
+WARNING:NgdBuild:452 - logical net 'N213' has no driver
+WARNING:NgdBuild:452 - logical net 'N214' has no driver
+WARNING:NgdBuild:452 - logical net 'N215' has no driver
+WARNING:NgdBuild:452 - logical net 'N216' has no driver
+WARNING:NgdBuild:452 - logical net 'N217' has no driver
+WARNING:NgdBuild:452 - logical net 'N218' has no driver
+WARNING:NgdBuild:452 - logical net 'N219' has no driver
+WARNING:NgdBuild:452 - logical net 'N220' has no driver
+WARNING:NgdBuild:452 - logical net 'N221' has no driver
+WARNING:NgdBuild:452 - logical net 'N222' has no driver
+WARNING:NgdBuild:452 - logical net 'N223' has no driver
+WARNING:NgdBuild:452 - logical net 'N224' has no driver
+WARNING:NgdBuild:452 - logical net 'N225' has no driver
+WARNING:NgdBuild:452 - logical net 'N226' has no driver
+WARNING:NgdBuild:452 - logical net 'N227' has no driver
+WARNING:NgdBuild:452 - logical net 'N228' has no driver
+WARNING:NgdBuild:452 - logical net 'N229' has no driver
+WARNING:NgdBuild:452 - logical net 'N230' has no driver
+WARNING:NgdBuild:452 - logical net 'N231' has no driver
+WARNING:NgdBuild:452 - logical net 'N232' has no driver
+WARNING:NgdBuild:452 - logical net 'N233' has no driver
+WARNING:NgdBuild:452 - logical net 'N234' has no driver
+WARNING:NgdBuild:452 - logical net 'N235' has no driver
+WARNING:NgdBuild:452 - logical net 'N236' has no driver
+WARNING:NgdBuild:452 - logical net 'N237' has no driver
+WARNING:NgdBuild:452 - logical net 'N238' has no driver
+WARNING:NgdBuild:452 - logical net 'N239' has no driver
+WARNING:NgdBuild:452 - logical net 'N240' has no driver
+WARNING:NgdBuild:452 - logical net 'N241' has no driver
+WARNING:NgdBuild:452 - logical net 'N242' has no driver
+WARNING:NgdBuild:452 - logical net 'N243' has no driver
+WARNING:NgdBuild:452 - logical net 'N244' has no driver
+WARNING:NgdBuild:452 - logical net 'N245' has no driver
+WARNING:NgdBuild:452 - logical net 'N246' has no driver
+WARNING:NgdBuild:452 - logical net 'N247' has no driver
+WARNING:NgdBuild:478 - clock net PLL_inst0/CLK_OUT3 with clock driver
+   PLL_inst0/clkout3_buf drives no clock pins
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/app_sr_active' has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/app_ref_ack' has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/app_zq_ack' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_idel_down_all' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_idel_down_cpt' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_idel_up_all' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_idel_up_cpt' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_sel_all_idel_cpt' has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/dbg_pi_f_dec'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/dbg_po_f_dec'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/rank' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/cmd<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/size' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/hi_priority'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/correct_en'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/app_sr_req_i'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/app_ref_req_i'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/app_zq_req_i'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/bank_mach_next<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/bank_mach_next<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<47>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<46>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<45>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<44>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<43>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<42>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<41>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<40>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<39>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<38>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<37>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<36>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<35>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<24>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_first_edge_cnt<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<47>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<46>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<45>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<44>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<43>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<42>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<41>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<40>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<39>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<38>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<37>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<36>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<35>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<24>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_cpt_second_edge_cnt<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_rdlvl<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<99>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<98>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<97>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<96>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<95>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<94>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<93>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<92>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<91>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<90>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<89>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<88>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<87>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<86>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<85>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<84>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<83>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<82>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<81>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<80>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<79>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<78>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<77>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<76>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<75>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<74>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<73>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<65>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<64>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<63>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<62>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<61>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<60>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<59>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<58>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<57>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<56>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<55>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<54>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<53>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<52>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<51>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<50>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<49>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<48>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<47>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<46>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<45>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<44>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<43>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<42>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<41>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<40>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<39>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<38>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<37>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<36>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<35>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<24>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrcal<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<47>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<46>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<45>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<44>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<43>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<42>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<41>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<40>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<39>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<38>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<37>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<36>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<35>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<24>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_fine_tap_cnt<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_final_po_coarse_tap_cnt<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_rdlvl_err<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_rdlvl_err<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/ecc_multiple<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/ecc_multiple<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/ecc_multiple<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/ecc_multiple<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/ecc_multiple<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/ecc_multiple<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/ecc_multiple<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/ecc_multiple<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_coarse_tap_cnt<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<255>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<254>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<253>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<252>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<251>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<250>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<249>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<248>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<247>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<246>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<245>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<244>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<243>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<242>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<241>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<240>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<239>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<238>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<237>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<236>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<235>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<234>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<233>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<232>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<231>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<230>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<229>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<228>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<227>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<226>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<225>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<224>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<223>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<222>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<221>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<220>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<219>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<218>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<217>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<216>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<215>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<214>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<213>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<212>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<211>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<210>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<209>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<208>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<207>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<206>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<205>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<204>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<203>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<202>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<201>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<200>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<199>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<198>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<197>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<196>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<195>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<194>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<193>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<192>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<191>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<190>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<189>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<188>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<187>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<186>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<185>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<184>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<183>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<182>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<181>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<180>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<179>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<178>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<177>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<176>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<175>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<174>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<173>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<172>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<171>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<170>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<169>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<168>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<167>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<166>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<165>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<164>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<163>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<162>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<161>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<160>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<159>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<158>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<157>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<156>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<155>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<154>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<153>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<152>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<151>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<150>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<149>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<148>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<147>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<146>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<145>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<144>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<143>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<142>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<141>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<140>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<139>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<138>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<137>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<136>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<135>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<134>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<133>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<132>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<131>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<130>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<129>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<128>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<127>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<126>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<125>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<124>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<75>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<58>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<53>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<44>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_wrlvl<24>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_rd_data_offset<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_prbs_rdlvl<176>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_prbs_rdlvl<175>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_prbs_rdlvl<174>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_prbs_rdlvl<173>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_prbs_rdlvl<172>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_prbs_rdlvl<171>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_prbs_rdlvl<170>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_prbs_rdlvl<169>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<255>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<254>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<253>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<252>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<251>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<250>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<249>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<248>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<247>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<246>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<245>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<244>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<243>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<242>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<241>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<240>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<239>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<238>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<237>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<236>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<235>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<234>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<233>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<232>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<231>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<230>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<229>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<228>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<227>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<226>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<225>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<224>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<223>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<222>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<221>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<220>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<219>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<218>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<217>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<216>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<215>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<214>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<213>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<212>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<211>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<210>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<209>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<208>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<207>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<206>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<205>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<204>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<203>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<202>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<201>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<200>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<199>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<198>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<197>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<196>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<195>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<194>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<193>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<192>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<191>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<190>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<189>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<188>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<187>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<186>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<185>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<184>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<183>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<182>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<181>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<180>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<179>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<178>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<177>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<176>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<175>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<174>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<173>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<172>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<171>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<170>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<169>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<168>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<167>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<166>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<165>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<164>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<163>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<162>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<161>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<160>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<159>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<158>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<157>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<156>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<155>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<154>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<153>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<152>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<151>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<150>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<149>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<148>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<147>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<146>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<145>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<144>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<143>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<142>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<141>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<140>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<139>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<138>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<137>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<136>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<135>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<134>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<133>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<132>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<131>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<130>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<129>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<128>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<127>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<126>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<125>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<124>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<123>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<122>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<121>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<120>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<119>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<118>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<117>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<116>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<115>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<114>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<113>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<112>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<111>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<110>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<109>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<108>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<107>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<106>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<105>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<104>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<103>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<102>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<101>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<100>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<99>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<98>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<97>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<96>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<95>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<94>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<93>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<92>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<91>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<90>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<89>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<88>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<87>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<86>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<85>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<84>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<83>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<82>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<81>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<80>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<79>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<78>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<77>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<76>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<75>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<74>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<73>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<72>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<71>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<70>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<69>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<68>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<67>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<66>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<65>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<64>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<63>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<62>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<61>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<60>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<59>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<58>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<57>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<56>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<55>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<54>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<53>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<52>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<51>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<50>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<49>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<48>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<47>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<46>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<45>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<44>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<43>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<42>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<41>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<40>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<39>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<38>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<37>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<36>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<35>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<24>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_dqs_found_cal<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_calib_rd_data_offset_1<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_calib_rd_data_offset_2<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<255>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<254>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<250>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<249>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<248>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<247>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<246>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<245>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<170>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<169>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<168>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<167>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<166>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<165>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<164>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<163>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<105>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<104>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<103>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<102>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<101>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<100>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<99>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<98>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<97>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<96>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<95>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<94>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<93>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<92>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<91>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<90>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<76>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<75>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<74>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<73>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<72>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<57>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<53>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<52>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<51>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<50>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<49>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<48>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<47>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<46>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<45>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<44>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<43>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<42>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<41>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<40>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<39>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<38>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<37>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<36>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<35>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<24>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_phy_oclkdelay_cal<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<79>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<78>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<77>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<76>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<75>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<74>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<73>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<72>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_oclkdelay_rd_data<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrlvl_err'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_pi_phaselock_start' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_pi_phaselock_err' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/dbg_pi_dqsfound_err' has no driver
+WARNING:NgdBuild:452 - logical net 'u_ddr3_ctrl/u_memc_ui_top_std/dbg_wrcal_err'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ecc_single<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ecc_single<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ecc_single<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ecc_single<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ecc_single<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ecc_single<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ecc_single<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ecc_single<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_ras_n<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cas_n<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_we_n<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<59>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<58>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<57>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<56>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<55>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<54>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<53>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<52>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<51>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<50>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<49>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<48>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<47>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<46>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_address<45>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_bank<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_bank<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_bank<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cs_n<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_odt<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cke<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cke<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cke<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cke<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cas_slot<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cas_slot<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_aux_out0<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_aux_out0<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_aux_out0<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_aux_out0<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_aux_out1<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_aux_out1<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_aux_out1<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_aux_out1<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_rank_cnt<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_rank_cnt<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_reset_n' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_cmd_wren' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc_ctl_wren' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_0_present<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_0_present<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_0_present<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_0_present<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_0_present<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_0_present<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_0_present<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_0_present<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_1_present<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_1_present<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_1_present<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_1_present<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_1_present<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_1_present<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_1_present<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/slot_1_present<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_a<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_ba<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_ba<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_ba<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_row<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/rank_busy_r<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/rank_busy_r<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/rank_busy_r<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/rank_busy_r<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_rmw' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/col_size' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/rank_mach0/rank_common0/mainten
+   ance_request.maint_grant_r<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/rank_mach0/rank_common0/mainten
+   ance_request.maint_grant_r<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/op_exit_req<0>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/demand_act_priority<
+   0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/col_rdy_wr<0>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/op_exit_req<1>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/demand_act_priority<
+   1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/col_rdy_wr<1>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/op_exit_req<2>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/demand_act_priority<
+   2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/col_rdy_wr<2>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/op_exit_req<3>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/demand_act_priority<
+   3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/col_rdy_wr<3>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/mc_aux_out0<0>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/sent_col_r' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/idle' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/
+   rd_half_rmw' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/
+   rb_hit_busies_r<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/
+   rb_hit_busies_r<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/
+   rb_hit_busies_r<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/
+   rb_hit_busies_r<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/
+   rb_hit_busies_r<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[0].bank0/
+   q_has_priority' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/
+   rd_half_rmw' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/
+   rb_hit_busies_r<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/
+   rb_hit_busies_r<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/
+   rb_hit_busies_r<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/
+   rb_hit_busies_r<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/
+   rb_hit_busies_r<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[1].bank0/
+   q_has_priority' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/
+   rd_half_rmw' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/
+   rb_hit_busies_r<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/
+   rb_hit_busies_r<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/
+   rb_hit_busies_r<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/
+   rb_hit_busies_r<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/
+   rb_hit_busies_r<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[2].bank0/
+   q_has_priority' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/
+   rd_half_rmw' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/
+   rb_hit_busies_r<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/
+   rb_hit_busies_r<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/
+   rb_hit_busies_r<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/
+   rb_hit_busies_r<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/
+   rb_hit_busies_r<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_cntrl[3].bank0/
+   q_has_priority' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/calib_zero_ctrl<2>'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/calib_zero_ctrl<1>'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/calib_zero_ctrl<0>'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/pi_phase_locked' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/pi_found_dqs' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/pi_dqs_found_all' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/rd_dat
+   a_offset_0<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/rd_dat
+   a_offset_1<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/rd_dat
+   a_offset_2<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/rd_dat
+   a_offset_ranks_0<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/rd_dat
+   a_offset_ranks_1<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/rd_dat
+   a_offset_ranks_2<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wl_po_
+   coarse_cnt<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/oclkde
+   lay_calib_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/dqsfou
+   nd_retry' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wrcal_
+   read_req' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/wrcal_
+   act_req' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/temp_w
+   rcal_done' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/calib_
+   writes' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   hy_ctl_wd<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/p
+   i_dqs_out_of_range' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_rd_en' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<319>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<318>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<317>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<316>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<315>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<314>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<313>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<312>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<247>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<246>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<245>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<244>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<243>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<242>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<241>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<240>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<239>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<238>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<237>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<236>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<235>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<234>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<233>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<232>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<167>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<166>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<165>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<164>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<163>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<162>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<161>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<160>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<127>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<126>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<125>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<124>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<123>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<122>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<121>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<120>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<87>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<86>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<85>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<84>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<83>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<82>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<81>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<80>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<79>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<78>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<77>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<76>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<75>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<74>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<73>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<72>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<71>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<70>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<69>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<68>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<67>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<66>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<65>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<64>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<95>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<94>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<84>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<83>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<81>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<80>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<79>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<78>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<69>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<68>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<67>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_out<66>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<95>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<94>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<93>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<92>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<91>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<90>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<89>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<88>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<87>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<86>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<85>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<84>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<83>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<82>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<81>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<80>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<79>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<78>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<77>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<76>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<75>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<74>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<73>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<72>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<71>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<70>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<69>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<68>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<67>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<66>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<65>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<64>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<63>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<62>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<61>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dq_ts<60>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dqs_out<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dqs_out<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dqs_out<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dqs_ts<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dqs_ts<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/mem_dqs_ts<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<959>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<958>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<957>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<956>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<955>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<954>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<953>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<952>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<887>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<886>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<885>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<884>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<883>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<882>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<881>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<880>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<879>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<878>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<877>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<876>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<875>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<874>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<873>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<872>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<807>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<806>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<805>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<804>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<803>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<802>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<801>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<800>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<767>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<766>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<765>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<764>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<763>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<762>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<761>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<760>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<727>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<726>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<725>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<724>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<723>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<722>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<721>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<720>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<719>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<718>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<717>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<716>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<715>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<714>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<713>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<712>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<711>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<710>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<709>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<708>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<707>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<706>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<705>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/phy_din<704>' has no driver
+WARNING:NgdBuild:478 - clock net
+   u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/rclk with clock driver
+   u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_2.u_ddr_phy_4lanes/rclk_buf drives no clock pins
+WARNING:NgdBuild:478 - clock net
+   u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/rclk with clock driver
+   u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/rclk_buf drives no clock pins
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<35>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_clk<24>' has no driver
+WARNING:NgdBuild:478 - clock net
+   u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/rclk with clock driver
+   u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/rclk_buf drives no clock pins
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B
+   /idelay_ce' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B
+   /idelay_ld' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B
+   /pre_fifo_a_full' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C
+   /idelay_ce' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C
+   /idelay_ld' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C
+   /pre_fifo_a_full' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D
+   /idelay_ce' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D
+   /idelay_ld' has no driver
+WARNING:NgdBuild:452 - logical net
+   'u_ddr3_ctrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u
+   _ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D
+   /pre_fifo_a_full' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 1367
+
+Total memory usage is 311168 kilobytes
+
+Writing NGD file "PXI_DAQ.ngd" ...
+Total REAL time to NGDBUILD completion: 1 min  15 sec
+Total CPU time to NGDBUILD completion:  1 min  13 sec
+
+Writing NGDBUILD log file "PXI_DAQ.bld"...

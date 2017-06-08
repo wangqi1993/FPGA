@@ -1,0 +1,15 @@
+# Output products list for <DSP48>
+DSP48.asy
+DSP48.gise
+DSP48.ngc
+DSP48.sym
+DSP48.v
+DSP48.veo
+DSP48.xco
+DSP48.xise
+DSP48\doc\dsp48_macro_ds754.pdf
+DSP48\doc\xbip_dsp48_macro_v2_1_readme.txt
+DSP48\doc\xbip_dsp48_macro_v2_1_vinfo.html
+DSP48_flist.txt
+DSP48_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

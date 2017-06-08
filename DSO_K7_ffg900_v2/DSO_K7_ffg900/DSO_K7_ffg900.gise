@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DSO_K7_ffg900.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="PXI_DAQ.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="PXI_DAQ.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="PXI_DAQ.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="PXI_DAQ.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="PXI_DAQ.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="PXI_DAQ.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="PXI_DAQ.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="PXI_DAQ.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="PXI_DAQ.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="PXI_DAQ.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PXI_DAQ.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="PXI_DAQ.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="PXI_DAQ.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="PXI_DAQ.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="PXI_DAQ.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="PXI_DAQ.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="PXI_DAQ.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="PXI_DAQ.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="PXI_DAQ.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="PXI_DAQ.xst"/>
+    <file xil_pn:fileType="FILE_BLIF" xil_pn:name="PXI_DAQ_cs.blc"/>
+    <file xil_pn:fileType="FILE_NGC" xil_pn:name="PXI_DAQ_cs.ngc"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PXI_DAQ_envsettings.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="PXI_DAQ_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="PXI_DAQ_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="PXI_DAQ_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="PXI_DAQ_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="PXI_DAQ_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="PXI_DAQ_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PXI_DAQ_map.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="PXI_DAQ_map_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PXI_DAQ_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="PXI_DAQ_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="PXI_DAQ_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PXI_DAQ_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PXI_DAQ_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="PXI_DAQ_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="PXI_DAQ_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PXI_DAQ_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="pxi_daq.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="pxi_daq.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="pxi_daq.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1483523510" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1483523510">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489560005" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4316428435943940337" xil_pn:start_ts="1489560005">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1496883136" xil_pn:in_ck="1007142344493963407" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1283861772808884790" xil_pn:start_ts="1496883134">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/FIFO_adc_data_in.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FIFO_adc_data_in.v"/>
+      <outfile xil_pn:name="ipcore_dir/FIFO_addr_in.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FIFO_addr_in.v"/>
+      <outfile xil_pn:name="ipcore_dir/FIFO_rd_DDR.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FIFO_rd_DDR.v"/>
+      <outfile xil_pn:name="ipcore_dir/SYS_PLL.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/clocking/mig_7series_v1_9_clk_ibuf.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/clocking/mig_7series_v1_9_infrastructure.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/clocking/mig_7series_v1_9_iodelay_ctrl.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/clocking/mig_7series_v1_9_tempmon.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_arb_mux.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_arb_row_col.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_arb_select.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_bank_cntrl.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_bank_common.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_bank_compare.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_bank_mach.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_bank_queue.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_bank_state.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_col_mach.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_mc.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_rank_cntrl.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_rank_common.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_rank_mach.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/controller/mig_7series_v1_9_round_robin_arb.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ddr3_ctrl.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_buf.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_dec_fix.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_merge_enc.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ip_top/mig_7series_v1_9_mem_intfc.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ip_top/mig_7series_v1_9_memc_ui_top_std.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_group_io.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_lane.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_calib_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_if_post_fifo.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy_wrapper.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_of_pre_fifo.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_4lanes.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_ck_addr_cmd_delay.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal_hr.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_init.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_oclkdelay_cal.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_prbs_rdlvl.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_rdlvl.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_tempmon.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrcal.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl_off_delay.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/phy/mig_7series_v1_9_ddr_prbs_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ui/mig_7series_v1_9_ui_cmd.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ui/mig_7series_v1_9_ui_rd_data.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ui/mig_7series_v1_9_ui_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/ddr3_ctrl/user_design/rtl/ui/mig_7series_v1_9_ui_wr_data.v"/>
+      <outfile xil_pn:name="ipcore_dir/fifo_scan.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/fifo_scan.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1483523510" xil_pn:in_ck="-47895051974281" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1483523510">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489560006" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5514094199433445501" xil_pn:start_ts="1489560006">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1483523510" xil_pn:in_ck="-47895051974281" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5918749233538361311" xil_pn:start_ts="1483523510">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489560006" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="6587602923576714432" xil_pn:start_ts="1489560006">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1496825979" xil_pn:in_ck="-4044143701736254963" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="5598933890026175234" xil_pn:start_ts="1496825806">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PXI_DAQ.lso"/>
+      <outfile xil_pn:name="PXI_DAQ.ngc"/>
+      <outfile xil_pn:name="PXI_DAQ.ngr"/>
+      <outfile xil_pn:name="PXI_DAQ.prj"/>
+      <outfile xil_pn:name="PXI_DAQ.stx"/>
+      <outfile xil_pn:name="PXI_DAQ.syr"/>
+      <outfile xil_pn:name="PXI_DAQ.xst"/>
+      <outfile xil_pn:name="PXI_DAQ_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1496668967" xil_pn:in_ck="6807853451774174411" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981236796548008" xil_pn:start_ts="1496668967">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1496826069" xil_pn:in_ck="-7857473570721336327" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2099860555173408910" xil_pn:start_ts="1496825979">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PXI_DAQ.bld"/>
+      <outfile xil_pn:name="PXI_DAQ.ngd"/>
+      <outfile xil_pn:name="PXI_DAQ_cs.blc"/>
+      <outfile xil_pn:name="PXI_DAQ_cs.ngc"/>
+      <outfile xil_pn:name="PXI_DAQ_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1496826389" xil_pn:in_ck="-6789259719846779843" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="1066978947743128725" xil_pn:start_ts="1496826069">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PXI_DAQ.pcf"/>
+      <outfile xil_pn:name="PXI_DAQ_map.map"/>
+      <outfile xil_pn:name="PXI_DAQ_map.mrp"/>
+      <outfile xil_pn:name="PXI_DAQ_map.ncd"/>
+      <outfile xil_pn:name="PXI_DAQ_map.ngm"/>
+      <outfile xil_pn:name="PXI_DAQ_map.xrpt"/>
+      <outfile xil_pn:name="PXI_DAQ_summary.xml"/>
+      <outfile xil_pn:name="PXI_DAQ_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1496826604" xil_pn:in_ck="1804869464065064566" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="8876233683776521202" xil_pn:start_ts="1496826389">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PXI_DAQ.ncd"/>
+      <outfile xil_pn:name="PXI_DAQ.pad"/>
+      <outfile xil_pn:name="PXI_DAQ.par"/>
+      <outfile xil_pn:name="PXI_DAQ.ptwx"/>
+      <outfile xil_pn:name="PXI_DAQ.unroutes"/>
+      <outfile xil_pn:name="PXI_DAQ.xpi"/>
+      <outfile xil_pn:name="PXI_DAQ_pad.csv"/>
+      <outfile xil_pn:name="PXI_DAQ_pad.txt"/>
+      <outfile xil_pn:name="PXI_DAQ_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1496826822" xil_pn:in_ck="126717336491200489" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="3160107541638749219" xil_pn:start_ts="1496826662">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PXI_DAQ.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="pxi_daq.bgn"/>
+      <outfile xil_pn:name="pxi_daq.bit"/>
+      <outfile xil_pn:name="pxi_daq.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1494293926" xil_pn:in_ck="177258079213553267" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="6552783135083104433" xil_pn:start_ts="1494293924">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1496883140" xil_pn:in_ck="177258079213553267" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="-2099860555173408910" xil_pn:start_ts="1496883136">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1496826604" xil_pn:in_ck="5681865744574718265" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1496826554">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="PXI_DAQ.twr"/>
+      <outfile xil_pn:name="PXI_DAQ.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

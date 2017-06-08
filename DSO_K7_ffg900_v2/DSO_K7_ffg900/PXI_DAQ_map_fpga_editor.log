@@ -1,0 +1,53 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.68d
+#Current Working Directory:
+#:D   E:\ISE_Project\PXI\DSO_K7_ffg900_v2\DSO_K7_ffg900
+#Date/Time:
+#:T   Wed Mar 08 11:47:03 2017
+#------------------------------
+	#Reading PXI_DAQ_map.ncd...
+	#Loading device for application Rf_Device from file '7k325t.nph' in environment d:\Xilinx\14.6\ISE_DS\ISE\.
+	#   "PXI_DAQ" is an NCD, version 3.2, device xc7k325t, package ffg900, speed -2
+	#Design creation date: 2017.03.08.03.37.45
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+unselect -all
+	#4
+unselect -all
+	#5
+select comp 'N298'
+	#comp "N298",  site "SLICE_X109Y163",  type = SLICEL  (RPM grid X271Y326)
+	#6
+unselect -all
+	#7
+unselect -all
+	#8
+unselect -all
+	#9
+select comp 'ADC_DATA_RX_Inst/peakdetect_path_inst0/maxmin_detect_inst0/compare4pts_inst0/b2v_inst5/mdata2<3>'
+	#comp "ADC_DATA_RX_Inst/peakdetect_path_inst0/maxmin_detect_inst0/compare4pts_inst0/b2v_inst5/mdata2<3>",  site "SLICE_X55Y156",  type = SLICEL  (RPM grid X151Y312)
+	#10
+unselect -all
+	#11
+unselect -all
+	#12
+unselect -all
+	#13
+unselect -all
+	#14
+select site 'DSP48_X5Y79'
+	#site "DSP48_X5Y79",  type = DSP48E1  (RPM grid X337Y395)
+	#15
+unselect -all
+	#16
+select wire 'VLONG12(3001,-2012)'
+	#node = VLONG12(3001,-2012)
+	#17
+unselect -all
